@@ -15,8 +15,8 @@ const Navbar = () => {
         <Bars />
 
         <NavMenu>
-          <NavLink to="/ ">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/ ">Hjem</NavLink>
+          <NavLink to="/about">Om meg</NavLink>
           {/* <NavLink to="/events" activeStyle>
             Events
           </NavLink>

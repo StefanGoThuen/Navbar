@@ -9,23 +9,23 @@ const SignUp = () => {
         <form>
             <h3 className='text-center'>Sing Up</h3>
             <div className='mb-2'>
-                <label htmlFor="firstName">First name: </label>
-                <input type="text" placeholder='Enter First Name' className='form-control'/>
+                <label htmlFor="firstName">Fornavn: </label>
+                <input type="text" placeholder='Fornavn' className='form-control'/>
             </div>
 
             <div className='mb-2'>
-                <label htmlFor="lastName">Last name: </label>
-                <input type="text" placeholder='Enter Last Name' className='form-control'/>
+                <label htmlFor="lastName">Etternavn: </label>
+                <input type="text" placeholder='Etternavn' className='form-control'/>
             </div>
             
             <div className='mb-2'>
-                <label htmlFor="email">Email: </label>
-                <input type="email" placeholder='Enter Email' className='form-control'/>
+                <label htmlFor="email">E-post: </label>
+                <input type="email" placeholder='e-post@eksempel.com' className='form-control'/>
             </div>
             
             <div className='mb-2'>
                 <label htmlFor="password">Passord: </label>
-                <input type="password" placeholder='Enter Password' className='form-control'/>
+                <input type="password" placeholder='Passord' className='form-control'/>
             </div>
 
             <div className='d-grid'>

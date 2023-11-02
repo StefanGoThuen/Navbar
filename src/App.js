@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages";
@@ -12,11 +11,11 @@ import SignUp from "./pages/signup";
 import SignIn from "./pages/signin";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-
 function App() {
   return (
     <>
       <Navbar />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -26,7 +25,6 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
-
       </Routes>
       </>
   );

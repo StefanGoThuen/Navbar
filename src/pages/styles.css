@@ -1,5 +1,4 @@
-
-Navknapp{
+.Navknapp{
     display: "flex"; 
     height: "100vh";
 }
@@ -20,4 +19,29 @@ Navknapp{
         width: 65%;
     }
 
+}
+.bilde{
+    display: block;
+    max-width: 50%;
+    max-height: 20%;
+    float: right;
+}
+
+.hovedside{
+    color: white;
+    text-align: center;
+}
+
+.hovedtext {
+    color: white;
+    text-align: center;
+    
+}
+.liste{
+    color: white;
+    text-align: left;
+    display: inline-block;
+}
+.listesenter{
+    text-align: center;
 }

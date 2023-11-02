@@ -9,8 +9,8 @@ const SignIn = () => {
         <form>
             <h3 className='text-center'>Login</h3>
             <div className='mb-2'>
-                <label htmlFor="email">Email: </label>
-                <input type="email" placeholder='Enter Email' className='form-control'/>
+                <label htmlFor="email">E-post: </label>
+                <input type="email" placeholder='e-post@eksempel.com' className='form-control'/>
             </div>
             
             <div className='mb-2'>
@@ -30,11 +30,9 @@ const SignIn = () => {
             </div>
 
             <p className='text-end mt-2'>
-                Glemt <a href="">Passord?</a> <NavLink to="/sign-up" activeStyle className='ms-2'>
-            Sign Up
-          </NavLink>
+            Glemt <NavLink to="/about" activeStyle> Passord?</NavLink> 
+            <NavLink to="/sign-up" activeStyle className='ms-2'>Sign Up</NavLink>
             </p>
-
         </form>
         </div>
     </div>
