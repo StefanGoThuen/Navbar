@@ -16,7 +16,7 @@ style={{
 }}>       
       <h1 className="hovedside">Velkommen <img class="bilde" src={bilde} alt="bilde av meg"></img></h1>
       <div>
-      <p className="hovedtext">Dette er en nettside der jeg har prøvd ulike funksjoner som:</p>
+      <p className="hovedtext">Dette er en nettside der jeg har brukt ulike funksjoner som:</p>
         <div className="listesenter"> 
           <ul className="liste">
             <li>Navigasjons bar med React Routes</li>
