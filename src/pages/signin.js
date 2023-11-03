@@ -5,7 +5,7 @@ import './styles.css'
 const SignIn = () => {
   return (
     <div className='d-flex justify-content-center align-items-center 100-w vh-100 bg-primary'>
-        <div className='form_container p-5 rounded bg-white'>
+          <div className='form_container p-5 rounded bg-white'>
         <form>
             <h3 className='text-center'>Login</h3>
             <div className='mb-2'>

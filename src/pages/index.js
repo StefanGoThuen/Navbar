@@ -17,11 +17,13 @@ style={{
       <h1 className="hovedside">Velkommen <img class="bilde" src={bilde} alt="bilde av meg"></img></h1>
       <div>
       <p className="hovedtext">Dette er en nettside der jeg har brukt ulike funksjoner som:</p>
-        <div className="listesenter"> 
+        <div class="text-center"> 
           <ul className="liste">
             <li>Navigasjons bar med React Routes</li>
             <li>Design for en login og lag en bruker side</li>
             <li>Testet React bootstrap css for design</li>
+            <li>Brukt tailwindcss for å lettere legge til css i enkelttilfeller</li>
+            <li>Laget en Quote side med onClick der den henter quotes fra 'https://type.fit/api/quotes' API med en kopi knapp </li>
           </ul>
         </div>
       </div>

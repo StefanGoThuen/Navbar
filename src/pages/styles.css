@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 .Navknapp{
     display: "flex"; 
     height: "100vh";
@@ -42,6 +46,80 @@
     text-align: left;
     display: inline-block;
 }
-.listesenter{
+
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.app {
+    height: 100%;
+    background: linear-gradient(rgba(9, 9, 121, 100),
+            rgba(0, 212, 255, 100));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.card {
+    background: whitesmoke;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 10px 10px;
+}
+
+.button {
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 150px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    transition-duration: 0.4s;
+    margin: 5%;
+    
+}
+
+.button2 {
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 60px;
+    width: 150px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    transition-duration: 0.4s;
+    margin: 5%;
+}
+
+.button:hover {
+background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+.button2:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
 }
