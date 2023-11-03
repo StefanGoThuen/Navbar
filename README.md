@@ -1,4 +1,5 @@
-Enkel navigasjonsbar med et enkel login og sign up design 
+Prosjekt der jeg har brukt ting navigasjonsbar, reactStates.
+Er også et design for login og sign up side i tillegg til andre design for andre sider i prosjektet mitt.
 
 "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
