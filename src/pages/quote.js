@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import'./styles.css';
 
-const About = () => {
+const Quote = () => {
   const [quote, setQuote] = useState('');
   const [author, setAuthor] = useState('');
   const [copied, setCopied] = useState(false);
@@ -65,4 +65,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Quote;

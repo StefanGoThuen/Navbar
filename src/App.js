@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages";
-import About from "./pages/about";
+import Quote from "./pages/quote";
 import Events from "./pages/events";
 import AnnualReport from "./pages/annual";
 import Teams from "./pages/team";
@@ -18,7 +18,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/quote" element={<Quote />} />
         <Route path="/events" element={<Events />} />
         <Route path="/annual" element={<AnnualReport />} />
         <Route path="/team" element={<Teams />} />
