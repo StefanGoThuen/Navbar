@@ -25,10 +25,10 @@ const Navbar = () => {
           </NavLink>
           <NavLink to="/team" activeStyle>
             Teams
-          </NavLink>
+          </NavLink>*/
           <NavLink to="/blogs" activeStyle>
             Blogs
-          </NavLink> */}
+          </NavLink> }
           <NavLink to="/sign-up" activeStyle>
             Sign Up
           </NavLink>
